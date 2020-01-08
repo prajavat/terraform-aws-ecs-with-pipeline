@@ -6,7 +6,7 @@ variable "region" {
 # Application Variable
 variable "name" {
   type        = string
-  default     = "ironbridge"
+  default     = "example"
 }
 
 variable "stage" {
