@@ -17,7 +17,8 @@ variable "stage" {
 ######## Codecommit/Repo Variable ########
 variable "repo_name" {
   type        = string
-  default     = "Irinbridge-laravel"
+  default     = ""
+  description = "Add you're AWS CodeCommite Repository"
 }
 
 variable "branch" {
